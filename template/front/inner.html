@@ -1,0 +1,26 @@
+{% extends '../wrapper.html' %}
+
+{% block scripts %}
+<link rel="stylesheet" href="{{ static_url("style/core.css") }}" type="text/css" />
+{% end %}
+
+{% block inner %}
+<div id="wrapper">
+    <div id="header">
+        <h1 class="title">
+            <a href="/">{{ handler.settings['title'] }}</a>
+        </h1>
+        <div class="desc">
+            {{ handler.config.sets['desc'] }} <a href="/admin/compose">[+]</a>
+        </div>
+    </div>
+    <div id="content">
+        {% block content %}{% end %}
+    </div>
+    <!--<div id="footer">-->
+        <!--<p>Code is my unique faith.</p>-->
+        <!--<p>Driven via Redispress.</p>-->
+        <!--<p>Powered by <a href="http://www.python.org/" target="_blank">Python</a>, <a href="http://www.tornadoweb.org/" target="_blank">Tornado</a> and <a href="http://redis.io/" target="_blank">Redis</a>.</p>-->
+    <!--</div>-->
+</div>
+{% end %}

@@ -1,0 +1,13 @@
+{% extends 'wrapper.html' %}
+
+{% block title %}{{ handler.settings['title'] }} › 错误{% end %}
+
+{% block inner %}
+<div id="error">
+    <div class="title">
+        <a href="/">{{ handler.settings['title'] }}</a> › 错误
+        <div class="desc"><a href="javascript: history.go(-1);">返回</a></div>
+    </div>
+    <p>{{ handler.error }} (TAT)/</p>
+</div>
+{% end %}

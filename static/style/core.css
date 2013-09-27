@@ -1,0 +1,61 @@
+a {
+	color: #09c;
+	text-decoration: none;
+}
+a:hover {
+    color: #069;
+}
+body {
+	background: #ffffff url('bg/linedpaper.png');
+    font-family: 'Merriweather', sans-serif, '微软雅黑';
+    color: #333333;
+    font-size: 20px;
+    line-height: 1.75;
+    margin: 0;
+    padding: 0;
+}
+h1, h2 {
+    line-height: 1.25;
+    font-weight: bold;
+}
+h1 a, h2 a {
+    color: #333333;
+}
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 48px;
+}
+
+#wrapper {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 48px 5% 96px;
+}
+#footer {
+    margin: 64px 0 0 0;
+    color: #dddddd;
+    font-size: 14px;
+}
+#footer a {
+    color: #cccccc;
+}
+
+.article {
+    margin: 72px 0 0 0;
+}
+.article .content {
+    margin: 36px 0 0 0;
+}
+.article .desc {
+    color: #999;
+    margin: 32px 0 0 0;
+}
+.article .links {
+    margin: 32px 0 0 0;
+}
+.article p {
+    margin-top: 32px;
+}
