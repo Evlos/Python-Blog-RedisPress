@@ -1,4 +1,4 @@
-Python-Blog-RedisPress
+Rwbypress
 ======================
 
-A blog programme written in Python with database driven by Redis.
+A blog programme written in Python with Redis as its database.
